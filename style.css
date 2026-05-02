@@ -1,0 +1,179 @@
+
+        *{
+            margin:0;
+            box-sizing:border-box;
+            font-family: sans-serif;
+        }
+        li {
+            color:white;
+        }
+        .logo {
+            width: 110px;
+            height: 30px;
+            top: 20px;
+            left: 10px;
+            margin-right: 30px;
+        }
+        .nav-container a {
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+            text-decoration: none;
+            top: 30%;
+        }
+        .nav-container ul {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            list-style: none;
+            margin: 0;
+        }
+        .nav-container a:hover {
+            color: #b3b3b3;
+        }
+        li.nav-item {
+            display: inline;
+            margin-right:20px;
+            top: 15px;
+            left: 200px;
+        }
+        #main{
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+        }
+        .header{
+            align-items: center;
+            position: absolute;
+            top: 10px;
+            left: 0px;
+            width: 100%;
+            z-index: 90;
+        }
+
+        #banner{
+            width:100vw;
+            height:100vh;
+            position:absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+        }
+        #banner-heading{
+            width: 350px;
+            height: 200px;
+            z-index: 2;
+            position: absolute;
+            top: 25%;
+            left: 3%;
+        }
+        #banner-N{
+            width: 40px;
+            height: 80px;
+            z-index: 2;
+            position: absolute;
+            top: 18%;
+            left: 4%;
+        }
+        #banner-bottom{
+            z-index: 3;
+            position: absolute;
+            top: 53%;
+            left:4%;
+            color: white;
+            width: 22%;
+        }
+        #button-main{
+            z-index: 4;
+            position:absolute;
+            top: 70%;
+            left: 4%;
+            width: 40%;
+            margin-right: 50px;
+            display: inline;
+            margin-right: 10px;
+        }
+        .netflix-button {
+            padding: 12px 28px;
+            font-size: 18px;
+            background-color: White;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .netflix-button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+        .watch {
+            color: white; 
+            font-weight: bold; 
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+        .descrip{
+            margin-top: 10px; 
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+        .carousel-wrapper {
+  position: relative;
+  width: 90%;
+  margin: 50px auto 0;
+  color: white;
+  position: absolute;
+    top: 72%;
+    left: 5%;
+   
+   
+}
+
+.carousel-wrapper h3 {
+  margin-bottom: 15px;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory; 
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none; /* hide scrollbar */
+}
+
+.carousel-container img {
+  width: 200px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  scroll-snap-align: start;
+}
+
+.carousel-container img:hover {
+  transform: scale(1.05);
+}
+.top-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+
